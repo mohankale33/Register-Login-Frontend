@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron {
+    height: 35vh;
+    margin-top: 1vh;
+	background-color: #a3d4e9;
+	border: 3px solid #fcf0f2;
+	color: white;
+	font-style: italic;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigateDiv{
+    height: 10vh;
+    background-color: #2a363b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons{
+    margin: 4% 0 0 6%;
+}
+
+#eachButton{
+	background-color: #2a363b;
+	border: 1px solid #f1e6e7;
+	color: white;
+	margin: 0 0 0 2%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+#eachButton:hover {
+	background-color: white;
+	color:#e84a5f;
+	border: 1px solid #e84a5f;
+}
